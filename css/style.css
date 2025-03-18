@@ -1,23 +1,104 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
+/* body */
+body{
+    background-color: whitesmoke;
+}
+
 /* header */
-header{
-    background-color:rgb(255, 255, 255);
-    height: 70px;
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+    height:80px;
 
 }
 
-.Logo{
+.Logo {
     width: 70px;
-    padding: 10px;
+    padding: 10px
 }
 
-.title{
+.title {
     display: inline-block;
-    vertical-align:middle ;
+    vertical-align: middle;
     height: 100px;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 60px;
+}
+
+/* main */
+.button{
+    padding: 5px;
+    margin:5px 0px;
+    background-color: lightblue;
+    border-radius: 10%;
+    color: white;
+    border-color: lightblue;
+}
+
+.button1{
+    padding: 5px;
+    margin: 5px 0;
+    background-color:white;
+    border-radius: 10%;
+    color:lightgray;
+    border-color: aliceblue;
+}
+
+/* lista1 */
+.task1{
+    margin-top: 30px;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    padding:10px
+}
+.check.green{
+    color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid green;
+
+}
+
+.cross.red{
+    width: 50%;
+    height: 50px;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid red;
+
+} 
+
+
+.label{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color:white
+    text-transform:uppercase;
+    }
+    
+    .editorial{background-color:  #007bff;}
+    .q1-goals{background-color:#8a2be2;}
+    .recruiting{background-color:#28a745;}
+    .mobile{background-color:#ff9800;}
+    .website{background-color:#e91e63;}
+    .sales{background-color:#8bc34a;}
